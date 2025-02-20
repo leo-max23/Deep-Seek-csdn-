@@ -1,0 +1,28 @@
+
+
+#wechaty==0.8.19
+#wechaty-puppet-service==0.8.4
+#pyee==8.2.2
+#flask
+#flask-cors
+#sqlalchemy~=2.0.37
+#requests
+#itchat-uos==1.5.0.dev0
+#wxauto~=3.9.11.17.5
+#openai~=1.2.0  # 修正 openai 版本，保持兼容性
+#pysqlite3-binary~=0.5.1  # 可选，确保 SQLite 兼容性（如果你的环境已支持 SQLite，则不需要）
+
+pyee~=8.2.2
+flask  # Flask 最新稳定版，提高兼容性
+flask-cors # 保持 CORS 兼容性
+sqlalchemy~=2.0.27  # 确保 SQLAlchemy 最新稳定版
+requests~=2.31.0  # 网络请求库，保持最新
+itchat-uos~=1.5.0.dev0
+wxauto~=3.9.11.17.5
+openai~=1.61.0  # 适当升级，兼容 DeepSeek API,修正 openai 版本，保持兼容性
+# zhipuai~=1.0.0  # 如果要用智谱 AI 官方 SDK，则取消注释
+#pysqlite3-binary~=0.5.1  # 仅在 SQLite 兼容性不足时启用,可选，确保 SQLite 兼容性（如果你的环境已支持 SQLite，则不需要）
+
+
+
+
