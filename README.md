@@ -10,7 +10,7 @@
 3. **配置<code>config.py</code>**  
 修改<code>LISTEN_LIST</code>、<code>DEEPSEEK_BASE_URL</code>和<code>DEEPSEEK_API_KEY</code>。
 按需调整<code>MAX_TOKEN</code>、<code>TEMPERATURE</code>和<code>MODEL</code>等
-4. **运行<code>bot.py</code>，如果报错请尝试使用Python 3.11版本。**
+4. **运行<code>deepseek to wechat.py</code>，如果报错请尝试使用Python 3.11版本。**
    ```bash
    python deepseek to wechat.py
 
